@@ -1,0 +1,73 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: simple
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "news"
+    label: "News"
+    files:
+      - label: "News Articles"
+        name: "news"
+        file: "content/news.json"
+        format: json
+        fields:
+          - label: "Articles"
+            name: "items"
+            widget: "list"
+            allow_add: true
+            summary: "{{fields.title}}"
+            fields:
+              - label: "Date"
+                name: "date"
+                widget: "string"
+                hint: "e.g. Q2 2025 or Jun 2025"
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Body"
+                name: "body"
+                widget: "text"
+              - label: "Tag"
+                name: "tag"
+                widget: "select"
+                required: false
+                options:
+                  - "IP"
+                  - "Funding"
+                  - "Science"
+                  - "Milestone"
+                  - "Award"
+                  - "Partnership"
+
+  - name: "team"
+    label: "Team"
+    files:
+      - label: "Team Members"
+        name: "team"
+        file: "content/team.json"
+        format: json
+        fields:
+          - label: "Members"
+            name: "items"
+            widget: "list"
+            allow_add: true
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - label: "Initials"
+                name: "initials"
+                widget: "string"
+                hint: "e.g. AB (shown as avatar until a photo is added)"
+              - label: "Full Name"
+                name: "name"
+                widget: "string"
+              - label: "Role / Title"
+                name: "role"
+                widget: "string"
+              - label: "Bio"
+                name: "bio"
+                widget: "text"
