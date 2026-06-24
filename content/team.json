@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "initials": "EF",
+      "name": "Dr Elizabeth Farrant",
+      "role": "Founder & CEO",
+      "bio": "Elizabeth leads New Path Molecular's strategy, business development, and fundraising. She co-founded the company to translate the PS-targeting platform into first-in-class oncology therapeutics."
+    },
+    {
+      "initials": "NN",
+      "name": "Dr Nikzad Nikbin",
+      "role": "Founder & CTO",
+      "bio": "Nikzad leads the scientific and technical development of New Path's synthetic PDC platform, overseeing chemistry, candidate selection, and preclinical programmes."
+    },
+    {
+      "initials": "SL",
+      "name": "Prof Steve Ley",
+      "role": "Founder",
+      "bio": "Steve is one of the world's leading synthetic chemists and a founding scientific advisor to New Path Molecular, providing foundational expertise in complex molecule synthesis."
+    },
+    {
+      "initials": "DN",
+      "name": "Dr Debra Nevin",
+      "role": "CMC Advisor",
+      "bio": "Debra advises on chemistry, manufacturing, and controls (CMC), supporting the development of robust and scalable manufacturing processes for PDC-1."
+    },
+    {
+      "initials": "SM",
+      "name": "Dr Steve McConchie",
+      "role": "Clinical Trials Advisor",
+      "bio": "Steve advises on clinical trial design and regulatory strategy, drawing on extensive experience in oncology drug development and IND/CTA submissions."
+    },
+    {
+      "initials": "GC",
+      "name": "Prof Glen Clack MD",
+      "role": "Oncology Advisor",
+      "bio": "Glen provides oncology clinical expertise, advising on indication selection, trial design, and the translation of preclinical findings into clinical development plans."
+    }
+  ]
+}
